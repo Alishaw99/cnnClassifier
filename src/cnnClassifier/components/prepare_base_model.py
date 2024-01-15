@@ -2,8 +2,6 @@ from pathlib import Path
 import tensorflow as tf
 from cnnClassifier.entity import PrepareBaseModelConfig
 
-
-
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):
         self.config = config
